@@ -27,7 +27,7 @@ export default function Stacks(){
              />
              <Tool
              icon={<i class="bi bi-database"></i>}
-             title={'Backend e Banco de dados'}
+             title={'Backend'}
              tech={[
                 <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />}/>,
                 <Tech stack={<i className="back-icon devicon-postgresql-plain-wordmark colored"></i>}/>,
