@@ -1,6 +1,6 @@
 .about{
     background-color: #000000;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .about h1{
@@ -21,11 +21,6 @@
 .img{
   width: 500px;
   transition: 2s;
-}
-
-.content-image .img-3{
-  position: relative;
-  left: 3rem;
 }
 
 
@@ -106,7 +101,7 @@
 #tab1:checked ~ .content #c1,
 #tab2:checked ~ .content #c2,
 #tab3:checked ~ .content #c3 {
-  display: block;
+  display: flex;
 }
 
 
