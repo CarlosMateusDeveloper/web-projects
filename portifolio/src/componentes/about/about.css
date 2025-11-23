@@ -7,6 +7,10 @@
     color: #9e2525;
 }
 
+.content{
+  width: 75%;
+}
+
 .content-image img{
     width: 250px;
     height: 250px;
@@ -87,8 +91,8 @@
 #tab1:checked + .tabs label[for="tab1"],
 #tab2:checked + .tabs label[for="tab2"],
 #tab3:checked + .tabs label[for="tab3"] {
-  border-color: #007bff;
-  color: #007bff;
+  border-color: #9e2525 ;
+  color: #9e2525;
 }
 
 /* Conteúdos inicialmente ocultos */
@@ -102,6 +106,7 @@
 #tab2:checked ~ .content #c2,
 #tab3:checked ~ .content #c3 {
   display: flex;
+  align-items: start;
 }
 
 

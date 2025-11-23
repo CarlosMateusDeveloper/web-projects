@@ -12,7 +12,11 @@ export default function Contact() {
                             <Contactcard icon={"bi bi-geo-alt-fill"} title={"Localização"} local={"Natal, RN - Brasil"} />         
                         </div>
                         <div className="col-12 col-md-6 ">
-                            <Contactcard icon={"bi bi-telephone-fill"} title={"Telefone"} local={"+55 84 99203-9516"}/>
+                            <Contactcard 
+                            icon={"bi bi-telephone-fill"}
+                            link={'https://wa.me/5584992039516?text=Olá%2C%20quero%20falar%20sobre%20o%20projeto'}
+                            title={"Telefone"} 
+                            local={"+55 84 99203-9516"}/>
                         </div>
                     </div>
                     <div className='d-flex flex-row'>

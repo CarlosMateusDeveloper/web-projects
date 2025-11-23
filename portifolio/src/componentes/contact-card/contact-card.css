@@ -11,11 +11,11 @@
     box-shadow: 0 0 10px #9e2525, 0 0 20px #9e2525, 0 0 30px #9e2525;
 }
 
-.card-contact a > h3{
+.card-contact  h3{
     font-size: 1rem;
 }
 
-.card-contact a > i{
+.card-contact i{
     font-size: 4rem;
 }
 
