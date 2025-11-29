@@ -20,28 +20,31 @@ export default function About() {
 
              <div className="content d-flex flex-row ps-5">
                 <div id="c1" className="tab-content text-start ">
-                <p className="about-text text-white pt-2 px-4 align-content-center fs-4 ">
-                 Sou Desenvolvedor Fullstack em formação no Instituto Federal do Rio Grande do Norte (IFRN), no campus de  Parnamirim. <br /> <br /> Cursando Tecnologia em Sistemas para Internet, estou no 4º semestre e a previsão para a minha conclusão é para dezembro de 2026.
-                <br />
-                 <br /> {/*em Desenvolvimento fullstack, banco de dados, Cloud Computing, machine learning, Deep Learning e Visão Computacional */}
-                Tenho certificações em plataformas como: <br /> 
-                Cisco Networking Academy; <br />
-                 Coursera; <br />
-                 Onebitcode; <br /> 
-                 Huawei ICT Academy.
-                <br /> 
-               
-                </p>
-                <img className='rounded-3 animate-float img ' src={foto} alt="" />  
-            </div>
-             <div id="c2" className="tab-content text-end">
-                <p className='about-text text-white pt-2 px-4 align-content-center text-start fs-4 '>  Sou homem, heterossexual, tenho 23 anos e moro no Município de Nisia Floresta. <br /> <br /> Trabalho em todas as modalidades, presencial, Híbrido ou remoto e aceito vagas de estágio ou de Desenvolvedor Junior.</p>
+                    <p className="about-text text-white pt-2 ps-0 pe-4 align-content-center fs-4 ">
+                    Sou Desenvolvedor Fullstack em formação no Instituto Federal do Rio Grande do Norte (IFRN), no campus de  Parnamirim. <hr /> Cursando Tecnologia em Sistemas para Internet, estou no 4º semestre e a previsão para a minha conclusão é para dezembro de 2026.
+                    <hr /> {/*em Desenvolvimento fullstack, banco de dados, Cloud Computing, machine learning, Deep Learning e Visão Computacional */}
+                    Tenho certificações em plataformas como: <br /> 
+                    Cisco Networking Academy; <br />
+                     Coursera; <br />
+                    Onebitcode; <br /> 
+                     Huawei ICT Academy.
+                    <br />
+                    </p>
+                    <img className='rounded-3 animate-float img ' src={foto} alt="" />  
+                </div>
+                <div id="c2" className="tab-content text-end">
+                 <p className='about-text text-white  ps-0 pe-4  align-content-center text-start fs-4 '>  Estou em início de carreira focado em entregar soluções práticas e evoluir rápido. Busco oportunidades como Estagiário ou Desenvolvedor Júnior e estou disponível para atuar presencialmente, em modelo híbrido ou remoto.
+                    <hr />
+                Sou movido por inovação e atualização constante. Acompanho tendências do mercado, novas tecnologias e boas práticas para incorporar rapidamente o que realmente gera valor. Busco ambientes que incentivem evolução técnica e permitam aplicar ideias atuais para construir soluções mais eficientes e modernas.
+                 </p>
                     <img className=' rounded-3 animate-float img' src={foto2} alt="" />
                     
             </div>
                     <div id="c3" className="tab-content">
-                        <p className='about-text text-white pt-2 px-4 align-content-center fs-4'>
-                            Meus Hobbies envolvem: <br /> <br /> Leitura e atividades fisicas, procuro fazer algo que ocupe a minha mente de forma saudável e me elevem fisica e mentalmente como ir à academia, praticar Jiu-jitsu e ler. <br /> <br /> Minha meta é ler pelo menos 10 páginas de um livro por dia, ir todos os dias a academia e conseguir minha primeira graduação no Jiu-jitsu.
+                        <p className='about-text text-white pt-2 ps-0 pe-4  align-content-center fs-4'>
+                            Meus Hobbies envolvem: <br /> <br /> Leitura e atividades fisicas, procuro fazer algo que ocupe a minha mente de forma saudável e me elevem fisica e mentalmente como ir à academia, praticar Jiu-jitsu e ler. 
+                            <hr />
+                             Minha meta é ler pelo menos 10 páginas de um livro por dia, ir todos os dias a academia e conseguir minha primeira graduação no Jiu-jitsu.
                         </p>
                         <img className='rounded-3 animate-float img' src={fotoesportes} alt="" />
                     </div>
