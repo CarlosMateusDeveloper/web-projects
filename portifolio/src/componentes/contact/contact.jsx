@@ -23,9 +23,10 @@ export default function Contact() {
                         <div className="col-12 col-md-6 text-white ">
                             <Contactcard 
                             icon={"bi bi-envelope-fill"} 
+                            link={'https://mail.google.com/mail/u/0/?view=cm&to=mateusdev33@gmail.com'}
                             title={"Email"} 
                             local={"mateusdev33@gmail.com"}/>
-                            link={'mailto:mateusdev33@gmail.com'}
+                            
                         </div>
                     </div>
                 </div>

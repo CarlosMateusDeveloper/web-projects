@@ -20,6 +20,9 @@
 }
 
 @media (max-width: 768px){
+  #stacks{
+    background: linear-gradient(45deg, rgb(30, 0, 0), rgb(47, 1, 1))
+}
   .grid-container {
     grid-template-columns: 1fr; /* vira uma coluna só */
   }
