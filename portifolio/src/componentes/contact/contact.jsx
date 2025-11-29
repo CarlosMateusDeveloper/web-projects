@@ -14,14 +14,18 @@ export default function Contact() {
                         <div className="col-12 col-md-6 ">
                             <Contactcard 
                             icon={"bi bi-telephone-fill"}
-                            link={'https://wa.me/5584992039516?text=Olá%2C%20quero%20falar%20sobre%20o%20projeto'}
+                            link={'https://wa.me/5584992039516?'}
                             title={"Telefone"} 
                             local={"+55 84 99203-9516"}/>
                         </div>
                     </div>
                     <div className='d-flex flex-row'>
                         <div className="col-12 col-md-6 text-white ">
-                            <Contactcard icon={"bi bi-envelope-fill"} title={"Email"} local={"mateusdev33@gmail.com"}/>
+                            <Contactcard 
+                            icon={"bi bi-envelope-fill"} 
+                            title={"Email"} 
+                            local={"mateusdev33@gmail.com"}/>
+                            link={'mailto:mateusdev33@gmail.com'}
                         </div>
                     </div>
                 </div>

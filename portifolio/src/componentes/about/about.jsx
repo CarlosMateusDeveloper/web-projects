@@ -35,7 +35,7 @@ export default function About() {
                 <div id="c2" className="tab-content text-end">
                  <p className='about-text text-white  ps-0 pe-4  align-content-center text-start fs-4 '>  Estou em início de carreira focado em entregar soluções práticas e evoluir rápido. Busco oportunidades como Estagiário ou Desenvolvedor Júnior e estou disponível para atuar presencialmente, em modelo híbrido ou remoto.
                     <hr />
-                Sou movido por inovação e atualização constante. Acompanho tendências do mercado, novas tecnologias e boas práticas para incorporar rapidamente o que realmente gera valor. Busco ambientes que incentivem evolução técnica e permitam aplicar ideias atuais para construir soluções mais eficientes e modernas.
+                Sou inovador e acompanho as tendências do mercado, novas tecnologias e boas práticas que geram valor e aumentam a produtividade. Busco ambientes que incentivem evolução técnica e permitam aplicar ideias atuais para construir soluções mais eficientes e modernas.
                  </p>
                     <img className=' rounded-3 animate-float img' src={foto2} alt="" />
                     
