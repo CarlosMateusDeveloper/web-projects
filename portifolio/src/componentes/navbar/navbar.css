@@ -6,8 +6,16 @@
     left: 0;
     width: 100%;
     z-index: 1000;
+     transition: background-color 0.3s ease;
 }
 
+.navbar-dark {
+  background-color: #000;   /* cor até 210vh */
+}
+
+.navbar-transparent {
+  background-color: transparent; /* após 210vh */
+}
 
 .navbar-brand{
     color: white;
