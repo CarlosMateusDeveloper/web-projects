@@ -23,7 +23,7 @@
 }
 
 .img{
-  width: 500px;
+  max-width: 30vw;
   transition: 2s;
 }
 
@@ -107,7 +107,22 @@
   .content-image{
     display: none;
   }
-  
+
+    .tabs{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .tab-container{
+      display: flex;
+      flex-direction: column!important;
+      justify-content: center;
+    }
+
+    .about-text{
+      width: 350px!important;
+      margin-right: 10px;
+    }
 } 
 
 
