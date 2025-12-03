@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="about p-5 container-fluid" id="about">
       <h1 className="text-center reveal">Sobre mim</h1>
-      <div className=" reveal d-flex flex-row pt-5 ">
+      <div className="about-content reveal d-flex flex-row pt-5 ">
         <div className="tab-container d-flex flex-row justify-content-evenly tab-wrapper">
           <input type="radio" name="tab" id="tab1" defaultChecked hidden />
           <input type="radio" name="tab" id="tab2" hidden />
