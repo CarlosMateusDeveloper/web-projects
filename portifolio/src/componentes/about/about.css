@@ -95,6 +95,10 @@
   .reveal{
     margin: 0px!important;
   }
+
+  #about{
+    padding: 0px 10px!important;
+  }
   .content-text{
     width: 100%!important;
   }
@@ -111,6 +115,13 @@
     .tabs{
     display: flex;
     flex-direction: row;
+    width: 100%!important;
+    }
+
+    .tabs label{
+      font-size: 3vh!important;
+      padding: 5px!important;
+      margin-right: 5px!important;
     }
 
     .tab-container{
@@ -123,6 +134,11 @@
       width: 350px!important;
       margin-right: 10px;
     }
+
+    .img{
+      display: none;
+    }
+
 } 
 
 

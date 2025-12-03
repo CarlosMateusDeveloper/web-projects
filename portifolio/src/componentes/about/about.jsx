@@ -25,7 +25,7 @@ export default function About() {
 
           <div className="content d-flex flex-row ">
             <div id="c1" className="tab-content text-start ">
-              <p className="about-text text-white pt-2 pe-4 align-content-center fs-4 ">
+              <p className="about-text text-white pt-2 pe-4 align-content-center fs-4 text-wrap ">
                 Sou Desenvolvedor Fullstack em formação no Instituto Federal do
                 Rio Grande do Norte (IFRN), no campus de Parnamirim. <hr />{" "}
                 Cursando Tecnologia em Sistemas para Internet, estou no 4º
