@@ -5,7 +5,7 @@ export function initScrollReveal() {
     distance: '50px',
     duration: 800,
     easing: 'ease-out',
-    reset: false,
+    reset: true,
     interval: 100,
   });
 

@@ -1,10 +1,31 @@
   import './navbar.css'
   import { Navbar as BootstrapNavbar, Container, Nav } from 'react-bootstrap';
   import { HashLink } from 'react-router-hash-link';
+  import { useEffect, useState } from "react";
 
 export default function Navbar() {
+    const [hide, setHide] = useState(false);
+    let lastScroll = 0;
+     useEffect(() => {
+    const handleScroll = () => {
+      const current = window.scrollY;
+      if (current > lastScroll) {
+        setHide(true);   // rolando para baixo → esconder
+      } else {
+        setHide(false);  // rolando para cima → mostrar
+      }
+
+      lastScroll = current;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <section className='navbar ' id='navbar'>
+    
+   
+    <section className={hide ? "navbar-hide" : ""} id='navbar'>
       <BootstrapNavbar expand="lg"  className="principal px-5">
       <Container fluid className="reveal d-flex justify-content-between align-items-center">
         <BootstrapNavbar.Brand as={HashLink} to="/#home">

@@ -6,7 +6,11 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-     transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 1s ease-in-out;
+}
+
+.navbar-hide {
+  transform: translateY(-100%);
 }
 
 .navbar-dark {
