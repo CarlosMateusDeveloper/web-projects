@@ -1,0 +1,27 @@
+.project{
+    background-image: url(../../assets/foto-projects.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

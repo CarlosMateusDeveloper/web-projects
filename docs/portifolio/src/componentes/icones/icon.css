@@ -1,0 +1,26 @@
+.icon{
+    border: 2px solid #9e2525!important;
+    font-size: 15px;
+   width: 30px;
+   height: 30px ;
+   padding: 5px;
+   transition: ease-in-out 0.3s; 
+
+}
+
+.icon:hover{
+    background-color: #de3838;  
+    transform: translateY(-10px);
+     color: white !important;
+}
+
+.icon:hover i{
+    color: white !important;
+}
+
+.icon i:hover{
+    transition: ease-in-out 0.2s;
+    color: white !important;
+    
+
+}

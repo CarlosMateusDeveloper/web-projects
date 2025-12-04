@@ -5,7 +5,7 @@ import homeimage2 from '../../assets/home-img-2.png';
 export default function maincontainer() {
     return (
         <section className="maincontainer container-fluid pt-5 px-5 d-flex flex-row pt-5" id='maincontainer'>
-            <div className='d-flex flex-column justify-content-center align-items-start pt-5 mt-5 ms-5 ps-5'>
+            <div className='d-flex flex-column justify-content-start align-items-start pt-5 mt-3 ms-5 ps-5'>
                 <h1 className="title text-white w-75 ">Create The <br /> Constructions <br /> You Want Here</h1>
                 <p className='text-secondary w-75'>We provide the best home design, construction and maintenance services for you and your family.</p>
                 <div className="buttons d-flex gap-3 justify-content-center">
@@ -24,7 +24,7 @@ export default function maincontainer() {
                 </div>
             </div>
             <div className='d-flex justify-content-center pt-5'>
-                <img src={ homeimage1 } className='mcimg-1 w-100 h-75 pe-5 me-5' alt="home-image-1" />
+                <img src={ homeimage1 } className='mcimg-1 pe-5 me-5' alt="home-image-1" />
                 <img src={homeimage2} className='mcimg-2 w-25' alt="home-image-2" />
             </div>
         </section>
