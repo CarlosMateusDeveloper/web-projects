@@ -7,14 +7,14 @@ export default function Projects() {
             <div className='container reveal d-flex flex-column justify-content-around align-items-center text-center'>
                 <h1 className='text-white mb-5'>Meus Projetos</h1>
                 <div className='d-flex flex-row gap-3'>
-                    <div className="col-12 col-md-6 col-lg-4">
+                    <div className="project-content     col-12 col-md-6 col-lg-4">
                         {/*Card 1*/}
                        <CardProject 
                        img={""}
                        title="Projeto 1"
                        link=""/>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-4">
+                    <div className="project-content col-12 col-md-6 col-lg-4">
                         {/*Card 2*/}
                         <CardProject 
                        img={""}
@@ -22,7 +22,7 @@ export default function Projects() {
                        link="#"/>
                     </div>
                         {/*Card 3*/}
-                    <div className='col-12 col-md-6 col-lg-4'>
+                    <div className='project-content col-12 col-md-6 col-lg-4'>
                         <CardProject 
                        img={""}
                        title="Projeto 3"
@@ -30,21 +30,21 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className='d-flex flex-row gap-3'>
-                    <div className='col-12 col-md-6 col-lg-4'>
+                    <div className='project-content col-12 col-md-6 col-lg-4'>
                         {/*Card 4*/}
                         <CardProject 
                        img={""}
                        title="Projeto 4"
                        link=""/>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-4'>
+                    <div className='project-content col-12 col-md-6 col-lg-4'>
                         {/*Card 5*/}
                         <CardProject 
                        img={""}
                        title="Projeto 5"
                        link=""/>
                     </div>
-                    <div className='col-12 col-md-6 col-lg-4'>
+                    <div className='project-content col-12 col-md-6 col-lg-4'>
                          {/*Card 6*/}
                         <CardProject 
                        img={""}

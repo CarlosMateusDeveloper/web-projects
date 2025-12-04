@@ -1,21 +1,23 @@
-  import './navbar.css'
-  import { Navbar as BootstrapNavbar, Container, Nav } from 'react-bootstrap';
-  import { HashLink } from 'react-router-hash-link';
-  import { useEffect, useState } from "react";
+import './navbar.css'
+import { Navbar as BootstrapNavbar, Container, Nav } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
+import { useEffect, useState, useRef } from "react";
 
 export default function Navbar() {
-    const [hide, setHide] = useState(false);
-    let lastScroll = 0;
-     useEffect(() => {
+  const [hide, setHide] = useState(false);
+  const lastScroll = useRef(0);
+
+  useEffect(() => {
     const handleScroll = () => {
       const current = window.scrollY;
-      if (current > lastScroll) {
-        setHide(true);   // rolando para baixo → esconder
+
+      if (current > lastScroll.current) {
+        setHide(true);   // descendo → esconder
       } else {
-        setHide(false);  // rolando para cima → mostrar
+        setHide(false);  // subindo → mostrar
       }
 
-      lastScroll = current;
+      lastScroll.current = current; // guarda o último valor real
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -23,30 +25,24 @@ export default function Navbar() {
   }, []);
 
   return (
-    
-   
-    <section className={hide ? "navbar-hide" : ""} id='navbar'>
-      <BootstrapNavbar expand="lg"  className="principal px-5">
-      <Container fluid className="reveal d-flex justify-content-between align-items-center">
-        <BootstrapNavbar.Brand as={HashLink} to="/#home">
-          Mateus <span className="last-name">Gonçalves</span>
-        </BootstrapNavbar.Brand>
-        <BootstrapNavbar.Toggle aria-controls="navbar-nav" />
-        <BootstrapNavbar.Collapse id="navbar-nav">
-          <Nav className=" nav ms-auto me-5 d-flex gap-3 align-items-center">
-            {/* <Nav.Link as={HashLink} to="/ia">
-              <img src="/ai-svgrepo-com.svg" alt="" />
-            </Nav.Link> */}
-            <Nav.Link as={HashLink} to="/#about">Sobre mim</Nav.Link>
-            <Nav.Link as={HashLink} to="/#stacks">Stacks</Nav.Link>
-            <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
-            <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
-            
-          </Nav>
-        </BootstrapNavbar.Collapse>
-      </Container>
+    <section className={hide ? "navbar navbar-hide" : "navbar"}>
+      <BootstrapNavbar expand="lg" className="principal px-5">
+        <Container fluid>
+          <BootstrapNavbar.Brand as={HashLink} to="/#home">
+            Mateus <span className="last-name">Gonçalves</span>
+          </BootstrapNavbar.Brand>
+
+          <BootstrapNavbar.Toggle aria-controls="navbar-nav" />
+          <BootstrapNavbar.Collapse id="navbar-nav">
+            <Nav className="ms-auto me-5 gap-3 align-items-center">
+              <Nav.Link as={HashLink} to="/#about">Sobre mim</Nav.Link>
+              <Nav.Link as={HashLink} to="/#stacks">Stacks</Nav.Link>
+              <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
+              <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
+            </Nav>
+          </BootstrapNavbar.Collapse>
+        </Container>
       </BootstrapNavbar>
     </section>
-    
-)
+  );
 }

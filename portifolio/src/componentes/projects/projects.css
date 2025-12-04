@@ -18,7 +18,7 @@
         align-items: center;
     }
 
-    .col-12{
+    .project-content{
         display: flex;
         flex-direction: column;
         align-items: center;

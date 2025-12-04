@@ -69,6 +69,10 @@
   flex-wrap: wrap;
   overflow-wrap: break-word;
   word-break: break-word;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  pointer-events: none;
 }
 
 /* Mostrar conteúdo correspondente */
@@ -77,7 +81,9 @@
 #tab3:checked ~ .content #c3 {
   display: flex;
   align-items: start;
-  
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 

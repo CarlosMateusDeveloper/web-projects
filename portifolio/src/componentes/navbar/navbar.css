@@ -1,16 +1,17 @@
 
 .navbar{
-    background-color: transparent;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    transition: background-color 0.3s ease, transform 1s ease-in-out;
+    transform: translateY(0);
+    transition: background-color 0.5s ease, transform 0.3s ease-in-out;
 }
 
 .navbar-hide {
-  transform: translateY(-100%);
+  transform: translateY(-250%);
+   pointer-events: none;
 }
 
 .navbar-dark {
