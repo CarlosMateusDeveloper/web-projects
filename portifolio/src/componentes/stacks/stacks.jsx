@@ -33,7 +33,8 @@ export default function Stacks(){
                 <Tech stack={<i className="back-icon devicon-postgresql-plain-wordmark colored"></i>}/>,
                 <Tech stack={<i className="back-icon devicon-nodejs-plain-wordmark colored"></i>}/>,
                 <Tech stack={<i className="back-icon devicon-docker-plain-wordmark colored"></i>}/>,
-                <Tech stack={<i class="devicon-git-plain-wordmark colored"></i>}/>
+                <Tech stack={<i class="devicon-git-plain-wordmark colored"></i>}/>,
+                <Tech stack={ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />}/>
              ]}
              />
              <Tool
@@ -42,10 +43,10 @@ export default function Stacks(){
              tech={[
                 <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />} />,
                 <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />}/>,
-                <Tech stack={<i className="data-icon  devicon-tensorflow-original-wordmark colored"></i>}/>,
+                <Tech stack={<i class="devicon-tensorflow-original colored"></i>}/>,
                 <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" />}/>,
-                <Tech stack={<i className='data-icon fastapi devicon-fastapi-plain-wordmark'></i>}/>,
-                <Tech stack={<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg' />}/>
+                <Tech stack={<i class="devicon-fastapi-plain colored"></i>}/>,
+                <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" />}/>
              ]}/>    
             </div> 
             
