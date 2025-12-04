@@ -25,11 +25,11 @@ export default function About() {
 
           <div className="content d-flex flex-row ">
             <div id="c1" className="tab-content text-start ">
-              <p className="about-text text-white pt-2 pe-4 align-content-center fs-4 text-wrap ">
+              <p className="about-text text-white  align-content-center fs-4 text-wrap ">
                 Sou Desenvolvedor Fullstack em formação no Instituto Federal do
                 Rio Grande do Norte (IFRN), no campus de Parnamirim. <hr />{" "}
                 Cursando Tecnologia em Sistemas para Internet, estou no 4º
-                semestre e a previsão para a minha conclusão é para dezembro de
+                semestre e a previsão de conclusão do curso é para dezembro de
                 2026.
                 <hr />{" "}
                 {/*em Desenvolvimento fullstack, banco de dados, Cloud Computing, machine learning, Deep Learning e Visão Computacional */}
