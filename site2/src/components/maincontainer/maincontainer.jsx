@@ -4,7 +4,7 @@ import homeimage1 from '../../assets/home-img-1.png';
 import homeimage2 from '../../assets/home-img-2.png';
 export default function maincontainer() {
     return (
-        <section className="maincontainer container-fluid pt-5 px-5 d-flex flex-row pt-5" id='maincontainer'>
+        <section className="maincontainer container-fluid pt-5 px-5 d-flex flex-row" id='maincontainer'>
             <div className='d-flex flex-column justify-content-start align-items-start pt-5 mt-3 ms-5 ps-5'>
                 <h1 className="title text-white w-75 ">Create The <br /> Constructions <br /> You Want Here</h1>
                 <p className='text-secondary fs-6 w-75'>We provide the best home design, construction and maintenance services for you and your family.</p>

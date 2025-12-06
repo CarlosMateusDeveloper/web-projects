@@ -4,6 +4,8 @@
 
 }
 
+
+
 .title{
     font-size: 3rem;
 }
@@ -13,6 +15,7 @@
     border: none;
     color: hsl(18, 95%, 55%);
 }
+
 
 .mcimg-1{
     object-fit: cover;

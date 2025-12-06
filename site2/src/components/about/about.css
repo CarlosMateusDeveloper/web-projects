@@ -1,27 +1,31 @@
 .about{
     height: 100vh;
-    width: 80%;
+    width: 100%;
 }
 
 .img-1{
     width: 350px;
-    min-height: 450px;
+    height: 450px;
     object-fit: cover;
     border: 10px solid white;
     position: absolute;
     left: 400px;
-    top: 1000px;
+    top: 890px;
     z-index: 10;
 }
 
 .img-2{
-    width: 360px;
+    width: 450px;
     min-height: 400px;
     object-fit: cover;
+    position: absolute;
+    left: 190px;
+    top: 1000px;
+
 }
 
 .content{
-    width: 45%;
+    width: 35%;
 }
 
 .content h6{
