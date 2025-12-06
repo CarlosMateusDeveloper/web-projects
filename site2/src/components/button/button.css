@@ -6,6 +6,7 @@
     color: white;
     display: inline-block;
     width: fit-content;
+    height: fit-content;
 }
 
 .custom-button:hover{
