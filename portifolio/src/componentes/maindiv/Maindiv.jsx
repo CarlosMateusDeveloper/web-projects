@@ -1,4 +1,4 @@
-import './Maindiv.css'
+import './maindiv.css'
 import perfil from '../../assets/fotoportifolio.jpg'
 export default function Maindiv() {
   return ( 
