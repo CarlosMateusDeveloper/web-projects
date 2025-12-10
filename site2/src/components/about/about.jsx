@@ -6,7 +6,7 @@ import List from '../about-list/list.jsx';
 export default function About() {
     return (
         <section className="about container-fluid d-flex justify-content-around align-items-center" id='about'>
-            <div className="images">
+            <div className="images ">
                 <img src={aboutimage1} className='img-1' alt="" />
                 <img src={aboutimage2} className='img-2' alt="" />
             </div>
@@ -22,7 +22,7 @@ export default function About() {
                     </div>
                     <div>
                         <List title={"Extensive experience"} />
-                    <List title={"We quote your project"} />
+                        <List title={"We quote your project"} />
                     </div>
                 </div>
                 <Button text={"View Projects"} link={undefined}/>

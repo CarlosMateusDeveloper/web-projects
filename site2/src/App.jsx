@@ -2,6 +2,8 @@ import React from 'react'
 import 'remixicon/fonts/remixicon.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Navbar from './/components/navbar/navbar.jsx'
 import MainContainer from './components/maincontainer/maincontainer.jsx'
 import './App.css'

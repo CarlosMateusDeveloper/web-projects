@@ -4,13 +4,13 @@
 }
 
 .img-1{
-    width: 350px;
-    height: 450px;
+    width: 370px;
+    height: 470px;
     object-fit: cover;
     border: 10px solid white;
     position: absolute;
-    left: 400px;
-    top: 890px;
+    left: 450px;
+    top: 1050px;
     z-index: 10;
 }
 
@@ -19,8 +19,8 @@
     min-height: 400px;
     object-fit: cover;
     position: absolute;
-    left: 190px;
-    top: 1000px;
+    left: 250px;
+    top: 1200px;
 
 }
 

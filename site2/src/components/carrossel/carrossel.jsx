@@ -1,8 +1,8 @@
-import { Carousel } from "bootstrap";
 import React, { useState } from "react";
 import Slider from "react-slick";
+import Slide from "./slide.jsx";
 
-function Resizable() {
+export default function Carousel() {
   const [display, setDisplay] = useState(true);
   const [width, setWidth] = useState(600);
 
@@ -16,18 +16,7 @@ function Resizable() {
   return (
     <div className="slider-container">
       <h2> Resizable Collapsible </h2>
-      <button className="button" onClick={() => setWidth(width + 100)}>
-        {" "}
-        increase{" "}
-      </button>
-      <button className="button" onClick={() => setWidth(width - 100)}>
-        {" "}
-        decrease{" "}
-      </button>
-      <button className="button" onClick={() => setDisplay(!display)}>
-        {" "}
-        toggle{" "}
-      </button>
+      
       <div
         style={{
           width: width + "px",
@@ -35,9 +24,8 @@ function Resizable() {
         }}
       >
         <Slider {...settings}>
-          <div>
-            <h3>1</h3>
-          </div>
+          <Slide
+          icon={<i class="ri-building-line"></i>}/>
           <div>
             <h3>2</h3>
           </div>
@@ -59,4 +47,4 @@ function Resizable() {
   );
 }
 
-export default Carousel;
+

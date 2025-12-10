@@ -16,3 +16,7 @@
 .social i:hover{
     transform: translateY(-5px);
 }
+
+.media{
+    width: fit-content;
+}

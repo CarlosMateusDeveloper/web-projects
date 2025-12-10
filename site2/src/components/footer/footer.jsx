@@ -24,7 +24,7 @@ export default function Footer(){
                     <p className='text-secondary'>Peru - Lima <br /> Av.Moon#321</p>
                     <p className='text-secondary'>9AM-11PM</p>
                 </div>
-                <div>
+                <div className='media'>
                     <h5 className='title-footer text-white'>Social Media</h5>
                     <div className='social d-flex gap-2 ps-2'>
                         <i className="bi bi-instagram text-danger"></i>

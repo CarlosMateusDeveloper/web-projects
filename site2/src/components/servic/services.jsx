@@ -1,11 +1,10 @@
-import { Carousel } from 'bootstrap'
 import Button from '../button/button'
 import './services.css'
-import '../carrossel/carrossel.jsx'
+import Carousel from '../carrossel/carrossel.jsx'
 export default function Services() {
     return (
         <section className=' d-flex flex-column' id="services">
-            <div className='services-content container-fluid px-5 pt-5 mt-5  d-flex '>
+            <div className='services-content container-fluid px-5 pt-5 mt-5  d-flex flex-column '>
                 <div className='px-5 mt-5 me-5 d-flex'>
                     <div>
                         <h6 className='subtitle-services'>OUR SERVICES</h6>
