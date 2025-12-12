@@ -28,7 +28,7 @@
     bottom: 50px;
     right: 500px;
     z-index: 1;
-    border: 12px solid hsl(255, 12%, 12%);
+    border: 12px solid hsla(254, 60%, 7%, 0.979);
 }
 
 .number{

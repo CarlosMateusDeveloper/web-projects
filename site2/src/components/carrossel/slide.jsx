@@ -1,4 +1,4 @@
-export default function Slide(icon, title, description) {
+export default function Slide({icon, title, description}) {
     return (
         <div>
             {icon}
