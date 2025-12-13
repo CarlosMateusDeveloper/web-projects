@@ -1,0 +1,14 @@
+.slide{
+    border: 2px solid hsl(0, 0%, 90%);
+    width: 30vw;
+}
+.c-icon{
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    color: white!important;
+    text-align: center;
+    align-content: center;
+}
+

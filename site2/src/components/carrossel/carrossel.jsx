@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './carrossel.css'
 import Slider from "react-slick";
 import Slide from "./slide.jsx";
 
@@ -15,8 +16,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="slider-container">
-      <h2>Resizable Collapsible</h2>
+    <div className="slider-container d-flex justify-content-center align-items-center">
 
       <div
         style={{
@@ -24,9 +24,16 @@ export default function Carousel() {
           display: display ? "block" : "none"
         }}
       >
-        <Slider {...settings}>
-          <Slide icon={<i className="ri-building-line"></i>} />
-          <div><h3>2</h3></div>
+        <Slider className="d-flex " {...settings}>
+          <Slide icon={<i className="ri-building-line"></i>}
+          title={'Housing Construction'}
+          description={'We build with the best professionals and high-quality work for a safe and effective home.'} />
+          <Slide icon={<i class="ri-home-office-line"></i>}
+          title={'Construction Of Home Areas'}
+          description={'We build with the best professionals and high-quality work for a safe and effective home.'} />
+          <Slide icon={<i class="ri-tools-fill"></i>} 
+          title={'Maintenance & Repair'}
+          description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
           <div><h3>3</h3></div>
           <div><h3>4</h3></div>
           <div><h3>5</h3></div>

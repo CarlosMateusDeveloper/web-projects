@@ -1,9 +1,10 @@
+import './slide.css'
 export default function Slide({icon, title, description}) {
     return (
-        <div>
-            {icon}
-            <h3>{title}</h3>
-            <p>{description}</p>
+        <div className='slide'>
+            <div className="c-icon">{icon}</div>
+            <h3 className='c-title'>{title}</h3>
+            <p className='c-desc'>{description}</p>
         </div>
     )
 }

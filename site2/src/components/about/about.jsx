@@ -10,13 +10,13 @@ export default function About() {
                 <img src={aboutimage1} className='img-1' alt="" />
                 <img src={aboutimage2} className='img-2' alt="" />
             </div>
-            <div className="content d-flex flex-column t ">
+            <div className="content d-flex flex-column pt-5 mt-5 ">
                 <h6>ABOUT US</h6>
-                <h1 className=''>We provide the Best Service To Build</h1>
+                <h1 >We provide the Best Service To Build</h1>
                 <p className='text-secondary'>We strive to provide the best professionals to make your project a construction masterpiece, something unique and unmatched</p>
                 <div className='d-flex gap-5'>
                     
-                    <div className='me-5'>
+                    <div className=''>
                         <List title={"Professional Workers"} />
                         <List title={"Guaranteed quality"} />   
                     </div>
@@ -25,6 +25,7 @@ export default function About() {
                         <List title={"We quote your project"} />
                     </div>
                 </div>
+                <br />
                 <Button text={"View Projects"} link={undefined}/>
             </div>
         </section>

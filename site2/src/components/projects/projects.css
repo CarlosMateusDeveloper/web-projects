@@ -1,6 +1,6 @@
 #projects{
     background-color: hsl(255, 12%, 12%);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 section h5{
