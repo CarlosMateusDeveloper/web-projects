@@ -16,7 +16,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="slider-container d-flex justify-content-center align-items-center">
+    <div className="slider-container ms-5 ps-5 pt-5">
 
       <div
         style={{

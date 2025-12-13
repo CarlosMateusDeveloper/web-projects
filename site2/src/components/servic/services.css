@@ -1,12 +1,16 @@
 #services{
     min-height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .back{
     background-color: hsl(255, 12%, 12%);
     margin-top: auto;
     width: 100%;
-    height: 200px; /* ajuste conforme o tamanho desejado */
+    height: 40%; 
+    position: absolute;
+    top: 1850px;
     z-index: -999;
 }
 
