@@ -7,8 +7,12 @@
     width: 70px;
     height: 70px;
     background-color: black;
-    color: white!important;
+    
     text-align: center;
     align-content: center;
 }
 
+.c-icon i{
+    color: rgba(255, 255, 255, 0.918);  
+    font-size: 1.5rem;
+}

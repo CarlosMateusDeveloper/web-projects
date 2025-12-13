@@ -24,7 +24,7 @@ export default function Carousel() {
           display: display ? "block" : "none"
         }}
       >
-        <Slider className="d-flex " {...settings}>
+        <Slider className="d-flex" {...settings}>
           <Slide icon={<i className="ri-building-line"></i>}
           title={'Housing Construction'}
           description={'We build with the best professionals and high-quality work for a safe and effective home.'} />
@@ -34,10 +34,18 @@ export default function Carousel() {
           <Slide icon={<i class="ri-tools-fill"></i>} 
           title={'Maintenance & Repair'}
           description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
-          <div><h3>3</h3></div>
-          <div><h3>4</h3></div>
-          <div><h3>5</h3></div>
-          <div><h3>6</h3></div>
+           <Slide icon={<i class="ri-tools-fill"></i>} 
+          title={'Maintenance & Repair'}
+          description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
+           <Slide icon={<i class="ri-tools-fill"></i>} 
+          title={'Maintenance & Repair'}
+          description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
+           <Slide icon={<i class="ri-tools-fill"></i>} 
+          title={'Maintenance & Repair'}
+          description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
+           <Slide icon={<i class="ri-tools-fill"></i>} 
+          title={'Maintenance & Repair'}
+          description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
         </Slider>
       </div>
     </div>
