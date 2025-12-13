@@ -2,7 +2,7 @@ import './cards.css'
 export default function Cards({image , subtitle , title , date }){
     return(
         <div className='card rounded-0' style={{width: '17rem'}}>
-            <img src={image} className="card-img-top" alt="..."/>
+            <img src={image} className="card-img-top rounded-0" alt="..."/>
             <div className="card-body">
                 <h6 className="card-title subtitle text-secondary">{subtitle}</h6>
                 <h5 className="card-title">{title}</h5>
