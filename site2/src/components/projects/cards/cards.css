@@ -6,3 +6,11 @@
 .card:hover{
     border: 2px solid hsl(18, 95%, 55%);
 }
+
+ .text-project{
+    font-size: 1.1vw;
+}
+
+.subtitle{
+    font-size: 1.1vw;
+}

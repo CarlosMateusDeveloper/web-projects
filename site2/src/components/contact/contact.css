@@ -25,7 +25,7 @@
 
 .contact-image{
     max-width: 500px;
-    height: 500px;
+    height: 420px;
 }
 
 .container{
@@ -40,4 +40,14 @@
 .top{
     height: 50vh;
     width: 40%;
+}
+
+.sub-icon{
+    color: hsl(18, 95%, 55%);
+    font-size: large;
+    transition: 0.3s ease-in-out;
+}
+
+.sub-icon:hover{
+    transform:translateY(-0.3rem);
 }

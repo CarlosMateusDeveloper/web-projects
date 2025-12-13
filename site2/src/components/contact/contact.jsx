@@ -13,15 +13,15 @@ export default function Contact(){
                      <Card 
                      icon={<i class="bi bi-geo-alt-fill"></i>} 
                      title={"I'm Here"} 
-                     subtitle={<p>Peru - Lima <br />Av.Moon n°321</p>}/>
+                     subtitle={<p>Peru - Lima Av.Moon n°321</p>}/>
                      <Card 
                      icon={<i class="bi bi-telephone"></i>} 
                      title={"Talk to me"} 
-                     subtitle={<>+00-987-7654-432 <br /> +11-012345</>}/>    
+                     subtitle={<>+00-987-7654-432 +11-012345</>}/>    
                      <Card 
                      icon={<i class="bi bi-chat-right-dots"></i>}  
-                     title={"I'm Here"} 
-                     subtitle={<div className='d-flex gap-3 pt-1'> <i class="sub-icon bi bi-whatsapp"></i> <i class="sub-icon bi bi-messenger"></i> <i class="sub-icon bi bi-telegram"></i></div>}/> 
+                     title={"Chat with me"} 
+                     subtitle={<div className='d-flex gap-3 pt-1'> <i class="sub-icon ri-whatsapp-line"></i><i class="sub-icon ri-messenger-line"></i> <i class="sub-icon ri-telegram-line"></i></div>}/> 
                 </div>
                  
             </div>

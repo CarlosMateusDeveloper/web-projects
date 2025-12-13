@@ -1,8 +1,8 @@
 .card-contact{
     border: 2px solid gray;
     transition: 0.2s ease-in-out;
-    width: 250px;
-    height: 220px;
+    width: 220px;
+    height: 200px;
 }
 
 .card-contact:hover{
@@ -10,6 +10,7 @@
 }
 .icon-contact{
     background-color: black;
+    
     width: 3rem;
     height: 3rem;
     display: flex;
@@ -19,8 +20,17 @@
     font-size: 1.5rem; 
 }
 
+.icon-contact i{
+    color: white;
+}
+
 .square-contact{
     align-content: center;
     text-align: center;
+    width: 120px;
+}
+
+.t-contact{
+    font-size: 0.7rem;
 }
 
