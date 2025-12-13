@@ -2,6 +2,12 @@
     border: 2px solid hsl(0, 0%, 90%);
     box-sizing: border-box;
     background-color: white;
+    transition: 0.5s ease;
+}
+
+.slide:hover{
+    border: 2px solid hsl(35, 100%, 40%);
+    
 }
 .c-icon{
     border-radius: 50px;
@@ -15,5 +21,13 @@
 
 .c-icon i{
     color: rgba(255, 255, 255, 0.918);  
+    font-size: 2rem;
+}
+
+.c-title{
     font-size: 1.5rem;
+}
+
+.c-desc{
+    font-size: 0.85rem;
 }

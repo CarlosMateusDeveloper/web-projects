@@ -34,16 +34,10 @@ export default function Carousel() {
           <Slide icon={<i class="ri-tools-fill"></i>} 
           title={'Maintenance & Repair'}
           description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
-           <Slide icon={<i class="ri-tools-fill"></i>} 
-          title={'Maintenance & Repair'}
+           <Slide icon={<i class="ri-box-3-line"></i>} 
+          title={'Installation Of Ceramics &  Others'}
           description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
-           <Slide icon={<i class="ri-tools-fill"></i>} 
-          title={'Maintenance & Repair'}
-          description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
-           <Slide icon={<i class="ri-tools-fill"></i>} 
-          title={'Maintenance & Repair'}
-          description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
-           <Slide icon={<i class="ri-tools-fill"></i>} 
+           <Slide icon={<i class="ri-drop-line"></i>} 
           title={'Maintenance & Repair'}
           description={'We build with the best professionals and high-quality work for a safe and effective home.'}/>
         </Slider>
