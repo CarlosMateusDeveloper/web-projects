@@ -24,7 +24,7 @@ export default function Carousel() {
           display: display ? "block" : "none"
         }}
       >
-        <Slider className="d-flex" {...settings}>
+        <Slider className="slider " {...settings}>
           <Slide icon={<i className="ri-building-line"></i>}
           title={'Housing Construction'}
           description={'We build with the best professionals and high-quality work for a safe and effective home.'} />

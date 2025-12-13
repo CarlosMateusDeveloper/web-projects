@@ -1,6 +1,6 @@
 .slide{
     border: 2px solid hsl(0, 0%, 90%);
-    width: 30vw;
+    box-sizing: border-box;
 }
 .c-icon{
     border-radius: 50px;
