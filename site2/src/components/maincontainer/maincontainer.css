@@ -1,6 +1,6 @@
 .maincontainer{
-    height: 100vh;
-    width: fit-container;
+    min-height: 100dvh;
+    width: 100%;
 
 }
 
@@ -38,13 +38,6 @@
     color: hsl(42, 98%, 52%);
 }
 
-@media (max-width: 1440px)  {
-    .maincontainer{
-        display: flex!important;
-        flex-direction: column!important;
-        width: 100%!important;
-    }
-}
 
 @media (max-width: 768px)  {
     .maincontainer{
