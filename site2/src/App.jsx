@@ -13,22 +13,22 @@ import Projects from './components/projects/projects.jsx';
 import Contact from './components/contact/contact.jsx'
 import Footer from './components/footer/footer.jsx'
 
-function App() {
+  function App() {
 
-  return (
-    <>
-    <div className='principal'>
-      <Navbar />
-      <MainContainer />
-    </div>
-    
-    <About />
-    <Services />
-    <Projects />
-    <Contact />
-    <Footer />
-    </>
-  )
-}
+    return (
+      <>
+      <div className='principal'>
+        <Navbar />
+        <MainContainer />
+      </div>
+      
+      <About />
+      <Services />
+      <Projects />
+      <Contact />
+      <Footer />
+      </>
+    )
+  }
 
 export default App

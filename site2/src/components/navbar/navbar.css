@@ -16,9 +16,9 @@ nav{
 
 
 
-div a:nth-of-type(2) { color: hsl(225, 12%, 24%); }   /* 2º <a> */
-div a:nth-of-type(3) { color: hsl(225, 12%, 24%); }  /* 3º <a> */
-div a:nth-of-type(4) { color: hsl(225, 12%, 24%); }
+.navbar-nav a:nth-of-type(2) { color: hsl(225, 12%, 24%); }  
+.navbar-nav a:nth-of-type(3) { color: hsl(225, 12%, 24%); }  
+.navbar-nav a:nth-of-type(4) { color: hsl(225, 12%, 24%); }
 
 .nav-link{
     transition: ease-in-out 0.3s ;
@@ -30,24 +30,21 @@ div a:nth-of-type(4) { color: hsl(225, 12%, 24%); }
 }
 
 @media (max-width: 994px) {
-  /* Container do collapse */
-  .navbar-collapse {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: flex-end !important; /* alinha todo o conteúdo à direita */
-    width: 100% !important;           /* importante: ocupar toda a largura */
-    text-align: right !important;  
-    background-color: hsl(255, 12%, 12%);    /* garante que o texto fique à direita */
+
+  .navbar-collapse { 
+    background-color: hsla(255, 86%, 5%); 
+    display: none!important; 
   }
 
-  /* Nav interno */
-  .navbar-collapse .navbar-nav {
-    width: 100% !important;            /* ocupa toda a largura do collapse */
-    align-items: flex-end !important;  /* alinha os links à direita */
-  }
-
-  .navbar-collapse .nav-link {
-    margin: 0.25rem 0 !important;      /* espaçamento entre links */
+  .navbar-collapse.show {
+        display: flex !important; /* Bootstrap adiciona .show quando abre */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 0.375rem;
   }
 }
-

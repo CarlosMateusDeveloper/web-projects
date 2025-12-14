@@ -1,6 +1,6 @@
 .maincontainer{
     height: 100vh;
-    width: 100%;
+    width: fit-container;
 
 }
 
@@ -34,4 +34,21 @@
 .number{
     color: hsl(42, 98%, 52%);
 
+}
+
+@media (max-width: 1440px)  {
+    .maincontainer{
+        display: flex!important;
+        flex-direction: column!important;
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 768px)  {
+    .maincontainer{
+        min-width: 100%!important;
+    }
+    .maincontainer div{
+         width: 100%!important;
+    }
 }
