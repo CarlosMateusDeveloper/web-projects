@@ -4,8 +4,6 @@
 
 }
 
-
-
 .title{
     font-size: 3rem;
 }
@@ -14,15 +12,20 @@
     text-decoration: none;
     border: none;
     color: hsl(18, 95%, 55%);
+    transition: transform ease 0.5s;
 }
 
+.v-projects:hover{
+    transform:scaleX(1rem);
+    
+}
 
 .mcimg-1{
     object-fit: cover;
     width: 550px;
     height: 375px;
-
 }
+
 .mcimg-2{
     position: absolute;
     bottom: 55px;
@@ -33,7 +36,6 @@
 
 .number{
     color: hsl(42, 98%, 52%);
-
 }
 
 @media (max-width: 1440px)  {
@@ -46,9 +48,17 @@
 
 @media (max-width: 768px)  {
     .maincontainer{
-        min-width: 100%!important;
+        width: fit-content!important;
+        height: 100vh;
     }
     .maincontainer div{
-         width: 100%!important;
+         width: fit-content!important;
+         display: flex;
+         justify-content: center;
+    }
+    .title{
+        align-self: center;
+        text-align: center;
+        font-size: 4rem;
     }
 }

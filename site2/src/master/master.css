@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.master{
+   background-color:   hsla(255, 86%, 5%, 0.979);
+   background-image: url(../src/assets/home-lines-bg.svg);
+   width: fit-content;
+   min-height: 100vh;
+   
+}

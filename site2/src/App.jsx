@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Navbar from './/components/navbar/navbar.jsx'
-import MainContainer from './components/maincontainer/maincontainer.jsx'
+import Master from './master/master.jsx';
+
 import './App.css'
 import About from './components/about/about.jsx';
 import Services from './components/servic/services.jsx';
@@ -17,11 +17,7 @@ import Footer from './components/footer/footer.jsx'
 
     return (
       <>
-      <div className='principal'>
-        <Navbar />
-        <MainContainer />
-      </div>
-      
+      <Master />      
       <About />
       <Services />
       <Projects />

@@ -16,10 +16,3 @@ body{
 
 }
 
-.principal{
-   background-color:   hsla(255, 86%, 5%, 0.979);
-   background-image: url(../src/assets/home-lines-bg.svg);
-   background-size: cover; /* Ajusta imagem ao tamanho */
-   background-position: center;
-   width: fit-content;
-}
