@@ -26,11 +26,8 @@ export default function About() {
           <div className="content d-flex flex-row ">
             <div id="c1" className="tab-content text-start ">
               <p className="about-text text-white  align-content-center fs-4 text-wrap ">
-                Sou Desenvolvedor Fullstack em formação no Instituto Federal do
-                Rio Grande do Norte (IFRN), no campus de Parnamirim. <hr />{" "}
-                Cursando Tecnologia em Sistemas para Internet, estou no 4º
-                semestre e a previsão de conclusão do curso é para dezembro de
-                2026.
+                Desenvolvedor focado em automação, análise de dados e sistemas web.
+                Crio soluções práticas usando JavaScript, Python e IA, com foco em entrega rápida.
                 <hr />{" "}
                 {/*em Desenvolvimento fullstack, banco de dados, Cloud Computing, machine learning, Deep Learning e Visão Computacional */}
                 Tenho certificações em plataformas como: <br />
@@ -44,7 +41,6 @@ export default function About() {
             </div>
             <div id="c2" className="tab-content text-end">
               <p className="about-text text-white  ps-0 pe-4  align-content-center text-start fs-4 ">
-                {" "}
                 Estou em início de carreira focado em entregar soluções práticas
                 e evoluir rápido. Busco oportunidades como Estagiário ou
                 Desenvolvedor Júnior e estou disponível para atuar

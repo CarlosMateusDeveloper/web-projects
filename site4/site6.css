@@ -1,8 +1,0 @@
-:root{
-    --hue-color: 206;
-    --body-color: hsl(var(--hue-color), 4%, 6%);
-}
-
-body{
-    background-color: var(--body-color);
-}
