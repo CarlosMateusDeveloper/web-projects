@@ -55,7 +55,7 @@
 }
 
 .nav-link:hover{
-    color: #9e2525;
+    color: #9e2525!important;
 }
 
 .nav-link img {
