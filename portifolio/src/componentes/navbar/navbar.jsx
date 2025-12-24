@@ -2,9 +2,11 @@ import './navbar.css'
 import { Navbar as BootstrapNavbar, Container, Nav } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import { useEffect, useState, useRef } from "react";
-// import useLang from '../../hooks/lang';
+import useLang from '../../hooks/lang';
 
 export default function Navbar() {
+    const { lang, toggleLang } = useLang('pt-BR');
+
   const [hide, setHide] = useState(false);
   const lastScroll = useRef(0);
 
@@ -40,7 +42,7 @@ export default function Navbar() {
               <Nav.Link as={HashLink} to="/#stacks">Stacks</Nav.Link>
               <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
               <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
-               <button>{}</button>
+              <button className='nav-link' onClick={toggleLang}>{lang === "pt-BR" ? "EN" : "pt-BR"}</button>
             </Nav>
           </BootstrapNavbar.Collapse>
         </Container>
