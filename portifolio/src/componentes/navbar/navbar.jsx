@@ -2,6 +2,7 @@ import './navbar.css'
 import { Navbar as BootstrapNavbar, Container, Nav } from 'react-bootstrap';
 import { HashLink } from 'react-router-hash-link';
 import { useEffect, useState, useRef } from "react";
+// import useLang from '../../hooks/lang';
 
 export default function Navbar() {
   const [hide, setHide] = useState(false);
@@ -39,7 +40,7 @@ export default function Navbar() {
               <Nav.Link as={HashLink} to="/#stacks">Stacks</Nav.Link>
               <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
               <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
-               <a class="nav-link" href="#">Features</a>
+               <a class="nav-link" href="#"></a>
             </Nav>
           </BootstrapNavbar.Collapse>
         </Container>
