@@ -22,4 +22,8 @@
     .contact-img{
         display: none;
     }
+
+    .contact{
+        min-height: 140vh;
+    }
 }

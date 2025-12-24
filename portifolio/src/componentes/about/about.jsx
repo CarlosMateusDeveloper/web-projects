@@ -19,15 +19,15 @@ export default function About() {
               Sobre mim
             </label>
             <label className="text-secondary fs-2" htmlFor="tab3">
-              Hobbies
+             Foco Técnico
             </label>
           </div>
 
           <div className="content d-flex flex-row ">
             <div id="c1" className="tab-content text-start ">
               <p className="about-text text-white  align-content-center fs-4 text-wrap ">
-                Desenvolvedor focado em automação, análise de dados e sistemas web.
-                Crio soluções práticas usando JavaScript, Python e IA, com foco em entrega rápida.
+                Dedicado a automação, análise de dados e sistemas web.
+                Crio soluções práticas usando JavaScript, Python e IA, com foco na automação e experiência do usuário.
                 <hr />
                 Tenho certificações em plataformas como: <br />
                 Cisco Networking Academy; <br />
@@ -40,16 +40,13 @@ export default function About() {
             </div>
             <div id="c2" className="tab-content text-end">
               <p className="about-text text-white  ps-0 pe-4  align-content-center text-start fs-4 ">
-                Estou em início de carreira focado em entregar soluções práticas
-                e evoluir rápido. Busco oportunidades como Estagiário ou
+                 Busco oportunidades como Estagiário ou
                 Desenvolvedor Júnior e estou disponível para atuar
                 presencialmente, em modelo híbrido ou remoto.
                 <hr />
                 Sou inovador e acompanho as tendências do mercado, novas
                 tecnologias e boas práticas que geram valor e aumentam a
-                produtividade. Busco ambientes que incentivem evolução técnica e
-                permitam aplicar ideias atuais para construir soluções mais
-                eficientes e modernas.
+                produtividade.
               </p>
               <img
                 className=" rounded-3 animate-float img"
@@ -59,14 +56,9 @@ export default function About() {
             </div>
             <div id="c3" className="tab-content">
               <p className="about-text text-white pt-2 ps-0 pe-4  align-content-center fs-4">
-                Meus Hobbies envolvem: <br /> <br /> Leitura e atividades
-                fisicas, procuro fazer algo que ocupe a minha mente de forma
-                saudável e me elevem fisica e mentalmente como ir à academia,
-                praticar Jiu-jitsu e ler.
+                Atualmente estou aprofundando conhecimentos em desenvolvimento de sistemas, automação e integração de APIs, com foco em aplicações web e soluções orientadas a dados.
                 <hr />
-                Minha meta é ler pelo menos 10 páginas de um livro por dia, ir
-                todos os dias a academia e conseguir minha primeira graduação no
-                Jiu-jitsu.
+                Tenho interesse em atuar em projetos que envolvam Python, backend, automação de processos e uso prático de IA.
               </p>
               <img
                 className="rounded-3 animate-float img"

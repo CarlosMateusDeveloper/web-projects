@@ -43,7 +43,7 @@ export default function Stacks(){
              tech={[
                 <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />} />,
                 <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />}/>,
-                <Tech stack={<i class="devicon-tensorflow-original colored"></i>}/>,
+                <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg" />}/>,
                 <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" />}/>,
                 <Tech stack={<i class="devicon-fastapi-plain colored"></i>}/>,
                 <Tech stack={<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" />}/>
