@@ -13,12 +13,12 @@ export default function Navbar() {
       const current = window.scrollY;
 
       if (current > lastScroll.current) {
-        setHide(true);   // descendo → esconder
+        setHide(true);  
       } else {
-        setHide(false);  // subindo → mostrar
+        setHide(false); 
       }
 
-      lastScroll.current = current; // guarda o último valor real
+      lastScroll.current = current; 
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -40,7 +40,7 @@ export default function Navbar() {
               <Nav.Link as={HashLink} to="/#stacks">Stacks</Nav.Link>
               <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
               <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
-               <a class="nav-link" href="#"></a>
+               <button>{}</button>
             </Nav>
           </BootstrapNavbar.Collapse>
         </Container>

@@ -30,28 +30,28 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className='d-flex flex-row gap-3'>
-                    <div className='project-content col-12 col-md-6 col-lg-4'>
+                    {/* <div className='project-content col-12 col-md-6 col-lg-4'>
                         {/*Card 4*/}
-                        <CardProject 
+                        {/* <CardProject 
                        img={""}
                        title="Projeto 4"
                        link=""/>
                     </div>
                     <div className='project-content col-12 col-md-6 col-lg-4'>
                         {/*Card 5*/}
-                        <CardProject 
+                        {/* <CardProject 
                        img={""}
                        title="Projeto 5"
                        link=""/>
-                    </div>
-                    <div className='project-content col-12 col-md-6 col-lg-4'>
+                    </div> */} 
+                    {/* <div className='project-content col-12 col-md-6 col-lg-4'>
                          {/*Card 6*/}
-                        <CardProject 
+                        {/* <CardProject 
                        img={""}
                        title="Projeto 6"
                        link=""/>    
-                    </div>
-                </div>
+                    </div> */}
+                 </div> 
                     
                        
             </div> 
