@@ -39,6 +39,7 @@ export default function Navbar() {
               <Nav.Link as={HashLink} to="/#stacks">Stacks</Nav.Link>
               <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
               <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
+               <a class="nav-link" href="#">Features</a>
             </Nav>
           </BootstrapNavbar.Collapse>
         </Container>

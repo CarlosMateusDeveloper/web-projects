@@ -7,11 +7,14 @@ export default function Contact() {
             <h1 className='text-center reveal text-white pb-3  pt-md-0'>Contate-me</h1>
             <div className='reveal d-flex flex-row justify-content-center align-items-center flex-wrap'>
                 <div className='pe-0 pe-md-5 d-flex flex-column justify-content-center flex-wrap'>
-                    <div className='d-flex flex-row flex-wrap'>
-                        <div className="col-12 col-md-6 "> 
-                            <Contactcard icon={"bi bi-geo-alt-fill"} title={"Localização"} local={"Natal, RN - Brasil"} />         
+                    <div className='d-flex flex-row flex-wrap '>
+                        <div className="col-12 col-md-6 d-flex justify-content-center "> 
+                            <Contactcard 
+                            icon={"bi bi-geo-alt-fill"} 
+                            title={"Localização"} 
+                            local={"Natal, RN - Brasil"} />         
                         </div>
-                        <div className="col-12 col-md-6 ">
+                        <div className="col-12 col-md-6 d-flex justify-content-center ">
                             <Contactcard 
                             icon={"bi bi-telephone-fill"}
                             link={'https://wa.me/5584992039516?'}
@@ -20,13 +23,12 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className='d-flex flex-row'>
-                        <div className="col-12 col-md-6 text-white ">
+                        <div className="col-12 col-md-6 text-white d-flex justify-content-center">
                             <Contactcard 
                             icon={"bi bi-envelope-fill"} 
                             link={'https://mail.google.com/mail/u/0/?view=cm&to=mateusdev33@gmail.com'}
                             title={"Email"} 
-                            local={"mateusdev33@gmail.com"}/>
-                            
+                            local={"mateusdev33@gmail.com"}/>  
                         </div>
                     </div>
                 </div>

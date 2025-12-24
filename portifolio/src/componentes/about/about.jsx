@@ -28,8 +28,7 @@ export default function About() {
               <p className="about-text text-white  align-content-center fs-4 text-wrap ">
                 Desenvolvedor focado em automação, análise de dados e sistemas web.
                 Crio soluções práticas usando JavaScript, Python e IA, com foco em entrega rápida.
-                <hr />{" "}
-                {/*em Desenvolvimento fullstack, banco de dados, Cloud Computing, machine learning, Deep Learning e Visão Computacional */}
+                <hr />
                 Tenho certificações em plataformas como: <br />
                 Cisco Networking Academy; <br />
                 Coursera; <br />
