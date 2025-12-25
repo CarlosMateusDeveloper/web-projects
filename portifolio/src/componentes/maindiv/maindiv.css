@@ -24,7 +24,7 @@
 }
 
 .home-content p{
-        max-width: 85%;
+        max-width: 80%;
     }
 
 .home-img img{
@@ -47,17 +47,18 @@
 .social-icons a{
     border: 2px solid #9e2525!important;
     font-size: 25px;
-   width: 50px;
-   height: 50px ;
+    width: 50px;
+    height: 50px ;
     transition: ease-in-out 0.4s;
 }
 
 .c-btn{
    width: 15vw;
-   background-color: #b52b2b;
+   background-color: #953333;
    display: inline-flex;
   align-items: center;
   justify-content: center;
+   transition: ease-in-out 0.4s;
 }
 
 .c-btn:hover{
