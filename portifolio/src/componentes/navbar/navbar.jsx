@@ -42,7 +42,6 @@ export default function Navbar() {
           <BootstrapNavbar.Collapse id="navbar-nav">
             <Nav className="ms-auto me-5 gap-3 align-items-center">
               <Nav.Link as={HashLink} to="/#about">Sobre mim</Nav.Link>
-              <Nav.Link as={HashLink} to="/#stacks">Stacks</Nav.Link>
               <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
               <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
               <button className='nav-link text-white' onClick={toggleLang}>{lang === "pt-BR" ? "EN" : "pt-BR"}</button>

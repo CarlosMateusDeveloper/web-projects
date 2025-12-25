@@ -10,7 +10,7 @@ export default function Maindiv() {
 
           <div className="social d-flex gap-3 justify-content-end  mb-5 pb-4">
             
-            <a className='c-btn btn text-white' href='/Mateus_Goncalves_Estagiario.pdf' target="_blank" rel="noreferrer">Currículo</a>
+            <a className='c-btn btn ' href='/Mateus_Goncalves_Estagiario.pdf' target="_blank" rel="noreferrer">Currículo</a>
 
            <div className="social-icons d-flex gap-2">
              <a className=' d-inline-flex justify-content-center align-items-center border rounded-circle border-danger' href="https://www.linkedin.com/in/carlos-gonçalves-b38701211/" target="_blank"><i class="bi bi-linkedin text-danger w-50 "></i></a>

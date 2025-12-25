@@ -1,6 +1,6 @@
 .about{
     background-color: #000000;
-    height: 110vh;
+    height: clamp(110vh, auto, 120vh);
 }
 
 .about h1{

@@ -59,6 +59,7 @@
   align-items: center;
   justify-content: center;
    transition: ease-in-out 0.4s;
+   color: black;
 }
 
 .c-btn:hover{

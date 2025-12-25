@@ -3,9 +3,9 @@ import foto from "../../assets/fotoportifolio-1.png";
 import foto2 from "../../assets/foto2.png";
 export default function About() {
   return (
-    <section className="about p-5 container-fluid" id="about">
+    <section className="about p-4 container-fluid" id="about">
       <h1 className="text-center reveal">Sobre mim</h1>
-      <div className="about-content reveal d-flex flex-row pt-5 ">
+      <div className="about-content reveal d-flex flex-row pt-4 ">
         <div className="tab-container d-flex flex-row justify-content-evenly tab-wrapper">
           <input type="radio" name="tab" id="tab1" defaultChecked hidden />
           <input type="radio" name="tab" id="tab2" hidden />
@@ -35,7 +35,7 @@ export default function About() {
                 <hr />
                 Busco oportunidades como Estagiário ou
                 Desenvolvedor Júnior e estou disponível para atuar
-                de forma presenvial,no modelo híbrido ou remoto.
+                de forma presencial,no modelo híbrido ou remoto.
               </p>
               <img
                 className=" rounded-3 animate-float img"
