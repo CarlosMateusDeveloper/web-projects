@@ -8,15 +8,17 @@ export default function Maindiv() {
           <h3 className="typing-text text-center text-lg-end">Desenvolvedor de Software</h3>
           <p className='text-secondary fs-5 text-end ms-0 ms-md-auto'>Desenvolvimento de soluções de software. Especialista em React e python  na criação de aplicações web e automações de processos.</p>
 
-          <div className="social-icons d-flex justify-content-end gap-3 fs-3 mb-5 ">
+          <div className="social d-flex justify-content-end gap-3 fs-3 mb-5 ">
             
-            <a className='btn text-white' target="_blank" rel="noreferrer">Currículo</a>
+            <a className='c-btn btn text-white' target="_blank" rel="noreferrer">Currículo</a>
 
-            <a className=' d-inline-flex justify-content-center align-items-center border rounded-circle border-danger' href="https://www.linkedin.com/in/carlos-gonçalves-b38701211/" target="_blank"><i class="bi bi-linkedin text-danger w-50"></i></a>
+           <div className="social-icons">
+             <a className=' d-inline-flex justify-content-center align-items-center border rounded-circle border-danger' href="https://www.linkedin.com/in/carlos-gonçalves-b38701211/" target="_blank"><i class="bi bi-linkedin text-danger w-50"></i></a>
 
             <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://github.com/CarlosMateusDeveloper" target="_blank"><i class="bi bi-github text-danger"></i></a>
 
             <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/dev_carlos_mateus" target="_blank"><i class="bi bi-instagram text-danger btn-hover"></i></a>
+           </div>
           </div> 
         </div>
         <div className="home-img reveal  pe-5 mb-5 "> <img className='rounded-circle' src={perfil} alt=""/></div>

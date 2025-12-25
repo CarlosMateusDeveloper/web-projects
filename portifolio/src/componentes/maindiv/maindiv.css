@@ -52,7 +52,7 @@
     transition: ease-in-out 0.4s;
 }
 
-.social-icons > :first-child{
+.c-btn{
    width: 15vw;
    background-color: #b52b2b;
    display: inline-flex;
@@ -60,7 +60,7 @@
   justify-content: center;
 }
 
-.social-icons > :first-child:hover{
+.c-btn:hover{
     transform: scale(1.1);
     background-color: #b52b2b;
 }
@@ -79,6 +79,15 @@ i:hover{
 
 }
 
+@media (max-width: 1024px) {
+    .social{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media (max-width: 768px) {
     .home{
         display: flex;
