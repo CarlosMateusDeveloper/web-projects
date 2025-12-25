@@ -2,7 +2,7 @@ import './maindiv.css'
 import perfil from '../../assets/fotoportifolio.jpg'
 export default function Maindiv() {
   return ( 
-  <section className="home  d-flex flex-row align-items-center justify-content-center container-fluid pe-5" id="home">       
+  <section className="home  d-flex flex-row align-items-center justify-content-center pe-5" id="home">       
         <div className="home-content reveal d-fex flex-column justify-content-center align-items-center mb-5 pe-md-5">
           <h1 className='text-center text-lg-end '><span>Mateus Gonçalves</span> </h1>  
           <h3 className="typing-text text-center text-lg-end">Desenvolvedor de Software</h3>

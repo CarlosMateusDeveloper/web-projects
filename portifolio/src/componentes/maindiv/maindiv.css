@@ -95,7 +95,7 @@ i:hover{
         flex-direction: column-reverse!important;
         display: flex;
         justify-content: center!important;
-        align-items: cente!important;
+        align-items: center!important;
         width: 100%;
         margin: 0!important;
         padding: 0!important;
@@ -134,5 +134,11 @@ i:hover{
 
     .typing-text{
         width: 100%!important;
+    }
+
+    .c-btn{
+        margin-top: 10px;
+        width: 60vw;
+        
     }
 }
