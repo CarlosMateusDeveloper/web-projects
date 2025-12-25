@@ -4,12 +4,12 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    
 }
 
-.container{
-    width: 100%;
+.container {
+    min-width: 100%;
 }
+
 
 @media (max-width: 768px) {
     .container{
@@ -22,6 +22,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .project-container{
+        flex-direction: column!important;
+
     }
 }
 

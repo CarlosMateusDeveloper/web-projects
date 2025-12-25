@@ -23,6 +23,10 @@
     font-size: 80px;
 }
 
+.home-content p{
+        max-width: 85%;
+    }
+
 .home-img img{
     border-radius: 50%;
     border: 4px solid #9e2525;
@@ -48,13 +52,25 @@
     transition: ease-in-out 0.4s;
 }
 
+.social-icons > :first-child{
+   width: 15vw;
+   background-color: #b52b2b;
+   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons > :first-child:hover{
+    transform: scale(1.1);
+    background-color: #b52b2b;
+}
+
 .social-icons a:hover{
     background-color: #9e2525;
     transform: scale(1.2);
    
    
 }
-
 
 i:hover{
     transform: scale(1.2);
