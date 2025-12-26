@@ -7,13 +7,13 @@ export default function Projects() {
         <section className='project d-flex flex-column justify-content-center align-items-center py-5' id='projects'>
             <div className='container reveal d-flex flex-column justify-content-around align-items-center text-center'>
                 <h1 className='text-white mb-5'>Meus Projetos</h1>
-                <div className='project-container d-flex flex-row gap-3 justify-content-center'>
+                <div className='project-container d-flex flex-row gap-3 px-5 justify-content-center'>
                     <div className="project-content col-12 col-md-6 col-lg-4">
                         {/*Card 1*/}
                        <CardProject 
                        img={buildImg}
                        title="Portifólio de Construtora"
-                       description={'Portifólio responsívo de uma empresa de engenhária civíl'}
+                       description={'Portfólio web responsivo desenvolvido para empresa de engenharia civil, adaptação para diferentes dispositivos.'}
                        link=""/>
                     </div>
                     <div className="project-content col-12 col-md-6 col-lg-4">
