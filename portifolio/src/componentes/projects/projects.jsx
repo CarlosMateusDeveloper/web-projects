@@ -1,5 +1,6 @@
 import './projects.css'
-import CardProject from '../cardproject/cardproject'
+import CardProject from './cardproject/cardproject'
+import buildImg from '../../assets/projectImg1.png'
 
 export default function Projects() {
     return (
@@ -10,15 +11,16 @@ export default function Projects() {
                     <div className="project-content col-12 col-md-6 col-lg-4">
                         {/*Card 1*/}
                        <CardProject 
-                       img={""}
+                       img={buildImg}
                        title="Portifólio de Construtora"
+                       description={'Portifólio responsívo de uma empresa de engenhária civíl'}
                        link=""/>
                     </div>
                     <div className="project-content col-12 col-md-6 col-lg-4">
                         {/*Card 2*/}
                         <CardProject 
-                       img={""}
-                       title="Banco de dados"
+                       img={"#"}
+                       title="Sistema de Gestão de Poços de Petróleo"
                        link="#"/>
                     </div>
                         {/*Card 3*/}

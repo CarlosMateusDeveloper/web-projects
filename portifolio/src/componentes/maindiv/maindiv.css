@@ -54,7 +54,7 @@
 
 .c-btn{
    width: 15vw;
-   background-color: #953333;
+   background-color: #ca4747;
    display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -65,6 +65,7 @@
 .c-btn:hover{
     transform: scale(1.1);
     background-color: #b52b2b;
+    color: black;
 }
 
 .social-icons a:hover{

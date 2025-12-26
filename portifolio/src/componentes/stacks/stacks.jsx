@@ -1,30 +1,35 @@
 import './stacks.css'
-import TechMarquee from '../tech/tech' 
+import Marquee from "react-fast-marquee"; 
 export default function Stacks(){
     return(
         <section  className='stacks' id='stacks'>
-            <TechMarquee/>
-        </section>
+            <div className="marquee-wrapper">
+      <Marquee speed={120} gradient={false} >
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+          
+        <i className="devicon-bootstrap-plain colored" />
+        <i className="devicon-tailwindcss-plain colored" />
+        <i className="devicon-sass-original colored"></i>
+        <i className="devicon-react-original colored" />
+        <i class="devicon-nodejs-plain-wordmark colored"></i>
+        <i classNamo="devicon-mysql-plain-wordmark colored"></i>
+        <i className="devicon-postgresql-plain-wordmark colored"></i>
+        <i className="back-icon devicon-docker-plain-wordmark colored"></i>
+        <i className="devicon-git-plain-wordmark colored"></i>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" />
+        
+      </Marquee>
+    </div>
+    </section>
     )
 }
-          /* <h1 className='text-white text-center p-5 reveal'>Tecnologias</h1> 
-            <div className='grid-container reveal'>
-            <Tool className='d-flex flex-wrap' 
-            icon={<i class="bi bi-globe2"></i>}
-            title={'Frontend'} 
-            tech={[
-                <Tech stack={<i className='devicon-html5-plain colored'></i>} 
-            name={'HTML'}/>,
-            <Tech stack={<i class="devicon-css3-plain colored"></i>}
-            name={'CSS'}/>,
-            <Tech stack={<i class="devicon-bootstrap-plain colored"></i>}  
-            name={'Bootstrap'}/>,
-            <Tech stack={<i class="devicon-javascript-plain colored"></i>} 
-            name={'Javascript'}/>,
-            <Tech stack={<i class="devicon-typescript-plain colored"></i>} 
-            name={'Typescript'}/>,
-            <Tech stack={<i class="devicon-react-original colored"></i>} 
-            name={'React'}/>
+          /*
             
             ]}
              />
