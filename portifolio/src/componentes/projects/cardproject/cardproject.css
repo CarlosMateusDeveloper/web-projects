@@ -5,7 +5,7 @@
     transition: transform 0.3s ease;
     color: white;
     min-width: 10vw;
-    height: clamp(50vh, 69vh, 100vh);
+    height: clamp(60vh, 67vh, 90vh);
     margin-bottom: 30px;
     overflow: visible; 
 }
@@ -34,8 +34,21 @@
 }
 
 .description{
-    margin-top: 10px;
     font-size: 1rem;
     font-weight: 400;
 }
 
+@media (max-width: 768px) {
+    .card-content img{
+        width: clamp(100%, 100%, 100%);
+        height: clamp(200px, 25vh, 200px);
+    }
+    .title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    }
+
+    .description{
+        display: none;
+    }
+}
