@@ -13,11 +13,11 @@ export default function Maindiv() {
             <a className='c-btn btn ' href='/Mateus_Goncalves_Estagiario.pdf' target="_blank" rel="noreferrer">Currículo</a>
 
            <div className="social-icons d-flex gap-2">
-             <a className=' d-inline-flex justify-content-center align-items-center border rounded-circle border-danger' href="https://www.linkedin.com/in/carlos-gonçalves-b38701211/" target="_blank"><i class="bi bi-linkedin text-danger w-50 "></i></a>
+             <a className=' d-inline-flex justify-content-center align-items-center border rounded-circle border-danger' href="https://www.linkedin.com/in/carlos-gonçalves-b38701211/" target="_blank"><i className="bi bi-linkedin text-danger w-50 "></i></a>
 
-            <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://github.com/CarlosMateusDeveloper" target="_blank"><i class="bi bi-github text-danger"></i></a>
+            <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://github.com/CarlosMateusDeveloper" target="_blank"><i className="bi bi-github text-danger"></i></a>
 
-            <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/dev_carlos_mateus" target="_blank"><i class="bi bi-instagram text-danger btn-hover"></i></a>
+            <a className='d-inline-flex justify-content-center align-items-center border rounded-circle border-danger ' href="https://www.instagram.com/dev_carlos_mateus" target="_blank"><i className="bi bi-instagram text-danger btn-hover"></i></a>
            </div>
           </div> 
         </div>

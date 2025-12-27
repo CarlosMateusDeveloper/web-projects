@@ -25,7 +25,6 @@ export default function Projects() {
                         <CardProject 
                        img={sheikhImg}
                        title="Sistema de Gestão de Poços de Petróleo"
-                       description={'Sistema de gestão de poços de petróleo.'}
                        link="#"
                        button='Em breve'
                        />
