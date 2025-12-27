@@ -31,7 +31,7 @@ export default function About() {
             <div id="c2" className="tab-content text-end">
               <p className="about-text text-white  ps-0 pe-4  align-content-center text-start fs-4 ">
                 Meu foco técnico está em desenvolvimento web com React e NodeJS, além de usar Python para
-                automações e analise de dados. <br />
+                automações e aprendizado de maquinas. <br />
                 <hr />
                 Busco oportunidades como Estagiário ou
                 Desenvolvedor Júnior e estou disponível para atuar

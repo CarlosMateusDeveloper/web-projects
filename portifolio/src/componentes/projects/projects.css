@@ -10,6 +10,10 @@
     min-width: 100%;
 }
 
+.project-content{
+    width: clamp(250px, 80%, 380px);
+}
+
 
 @media (max-width: 768px) {
     .container{
@@ -26,7 +30,8 @@
 
     .project-container{
         flex-direction: column!important;
-
+        align-items: center;
+        padding: 0!important;
     }
 }
 

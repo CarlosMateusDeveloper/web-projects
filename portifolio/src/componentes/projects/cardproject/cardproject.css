@@ -25,7 +25,19 @@
 
 .card-content img{
     width: 100%;
-    height: 250px;
+    height: clamp(150px, 30vh, 250px);
     object-fit: cover;
     border-radius: 7px 7px 0 0;
 }
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.description{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+

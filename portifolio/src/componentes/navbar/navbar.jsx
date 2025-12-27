@@ -5,13 +5,9 @@ import { useEffect, useState, useRef } from "react";
 
 
 export default function Navbar() {
-  const [lang, setLang ] = useState('pt-BR');
+
   const [hide, setHide] = useState(false);
   const lastScroll = useRef(0);
-
-  const toggleLang = () => {
-    setLang(prev => (prev === "pt-BR" ? "en-US" : "pt-BR"));
-  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,7 +40,7 @@ export default function Navbar() {
               <Nav.Link as={HashLink} to="/#about">Sobre mim</Nav.Link>
               <Nav.Link as={HashLink} to="/#projects">Projetos</Nav.Link>
               <Nav.Link as={HashLink} to="/#contact">Contato</Nav.Link>
-              <button className='nav-link text-white' onClick={toggleLang}>{lang === "pt-BR" ? "EN" : "pt-BR"}</button>
+              <button className='nav-link text-white'> </button>
             </Nav>
           </BootstrapNavbar.Collapse>
         </Container>
