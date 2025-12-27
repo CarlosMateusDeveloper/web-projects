@@ -2,6 +2,7 @@ import './projects.css'
 import CardProject from './cardproject/cardproject'
 import buildImg from '../../assets/projectImg1.png'
 import sheikhImg from '../../assets/sheik.png'
+import painel from '../../assets/paineldedados.png'
 
 export default function Projects() {
     return (
@@ -14,7 +15,7 @@ export default function Projects() {
                        <CardProject 
                        img={buildImg}
                        title="Portifólio de Construtora"
-                       description={'Portfólio web responsivo desenvolvido para empresa de engenharia civil, adaptação para diferentes dispositivos.'}
+                       description={'Portfólio web desenvolvido para empresa de engenharia civil, adaptação para diferentes dispositivos.'}
                        link=""
                        button="Acessar"
                        />
@@ -24,6 +25,7 @@ export default function Projects() {
                         <CardProject 
                        img={sheikhImg}
                        title="Sistema de Gestão de Poços de Petróleo"
+                       description={'Sistema de gestão de poços de petróleo.'}
                        link="#"
                        button='Em breve'
                        />
@@ -31,8 +33,8 @@ export default function Projects() {
                         {/*Card 3*/}
                     <div className='project-content col-12 col-md-6 col-lg-4'>
                         <CardProject 
-                       img={""}
-                       title="Painel de dados"
+                       img={painel}
+                       title="Painel de Monitoramento de dados"
                        link=""
                         button='Em breve'
                         />
